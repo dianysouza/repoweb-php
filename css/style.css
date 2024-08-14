@@ -1,0 +1,497 @@
+*
+{
+    font-family: "Century Gothic", "Didact Gothic";
+}
+
+body
+{
+    margin:0;
+}
+
+header
+{
+   background-color: deepskyblue;
+   height: 75px;
+}
+
+header label
+{
+	margin: 25px;
+}
+
+header .login
+{
+    float:right;
+	margin: 6px;
+}
+
+header .login input
+{
+    margin: 5px 0 0 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+header .login input[type="submit"]
+{
+    background-color: #077af1;
+    color: white;
+}
+
+h1
+{
+    font-size: 22px;
+	margin: 2%;
+}
+
+h2
+{
+    font-size: 20px;
+}
+
+.recentes
+{
+    margin: 0 2%;
+    width: 65%;
+    float: left;
+    background-color: #f5f2f5;
+    height: 400px;
+}
+
+.titulo
+{
+	width: 100%;
+	background-color: #c30404;
+	color: white;
+	height: 10%;
+	display: table;
+	font-weight: bold;
+	-webkit-box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+	-moz-box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+	box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+}
+
+
+.recentes .projetos
+{
+	width: 100%;
+	height: 89%;
+	overflow: auto;
+}
+
+.recentes .projetos .infos
+{
+	background-color: #c30404;
+	height: 60px;
+	margin-top: 8px;
+	-webkit-box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+	-moz-box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+	box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+}
+
+.recentes .projetos .infos i
+{
+	color: white;
+	outline-offset: -2px;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.87);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.87);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.87);
+	margin-left: 2%;
+	float: left;
+}
+
+.recentes .projetos .infos label, .recentes .projetos .infos label, .recentes .projetos .infos label
+{
+	color: white;
+	font-size:15px;
+}
+
+.recentes .projetos .infos label[for="Titulo"], .recentes .projetos .infos label[for="Autores"], .recentes .projetos .infos label[for="Ano"]
+{
+	font-weight: bold;
+}
+
+.acessadas
+{
+	float: right;
+	background-color: #f5f2f5;
+	width: 25%;
+	height: 400px;
+	margin: 0 2%;
+}
+
+.acessadas .titulo
+{
+	width: 100%;
+	background-color: #007ae3;
+	color: white;
+	height: 10%;
+	display: table;
+	font-weight: bold;
+	-webkit-box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+	-moz-box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+	box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+}
+
+.acessadas .projetos
+{
+	width: 100%;
+	height: 89%;
+	overflow: auto;
+}
+
+.acessadas .projetos .infos
+{
+	background-color: #007ae3;
+	height: 60px;
+	margin-top: 8px;
+	-webkit-box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+	-moz-box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+	box-shadow: inset 0px -5px 15px -5px rgba(0,0,0,0.87);
+}
+
+.acessadas .projetos .infos label[for="projeto"]
+{
+	color: white;	
+}
+
+form:not(.login)
+{
+    border: transparent;
+	margin: 0 auto;
+    max-width: 850px;
+    padding: 20px 10px;
+    border: 1px solid lightgray;
+    border: 1px solid lightgray;
+    background-color: rgba(230, 230, 230, 0.83);
+}
+
+form:after
+{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.input 
+{
+  float: left;
+  width: 48%;
+  padding: 0 1% 20px;
+  position: relative;
+}
+
+.input.txt 
+{ 
+    width: 98%; 
+}
+
+#check, #error
+{
+	float: right;
+	padding: 15px;
+}
+
+#check
+{
+	color: green;
+}
+
+#error
+{
+	color: red;
+}
+
+.input.txt input[type="file"]
+{
+    width: 70%;
+}
+
+.input label 
+{
+  display: block;
+  padding-bottom: 5px;
+  color: red;
+  font-weight: bold;
+}
+
+.input input
+{
+  padding-top: 10px;
+  padding-bottom: 9px;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: Century Gothic;
+  width: 94%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+input:focus
+{
+	outline: none;
+}
+
+button.cancel 
+{
+  float: left;
+  border: none;
+  height: 37px;
+  line-height: 1;
+  font-size: 18px;
+  padding: 0 15px;
+  cursor: pointer;
+  color: #fff;
+  font-family: Century Gothic;
+  background-color: #1E90FF;
+}
+
+button.ok 
+{
+  float: right;
+  border: none;
+  height: 37px;
+  line-height: 1;
+  font-size: 18px;
+  padding: 0 15px;
+  cursor: pointer;
+  color: #fff;
+  font-family: Century Gothic;
+  background-color: #1E90FF;
+}
+
+button.ok:hover, button.cancel:hover
+{
+	background-color: #c30404;
+}
+
+a
+{
+	color:inherit;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:#c30404;
+	font-weight: bold;
+}
+
+footer
+{
+	height: 150px;
+	background-color: #373737;
+}
+
+footer img
+{
+	float: left;
+}
+
+footer ul
+{
+	margin: 0 20px;
+	color: white;
+}
+
+footer ul li
+{
+	padding: 5px;
+	list-style: none;
+	cursor: pointer;
+}
+
+footer ul li:hover
+{
+	font-weight: bold;
+}
+
+footer ul li:hover > i
+{
+	color:yellow
+}
+
+footer address
+{
+	color: white;
+	font-size: 15px;
+}
+
+.pesquisaProjetos
+{
+	float: right;
+	margin: 0 2%;
+	background-color: #007ae3;
+	width: 25%;
+}
+
+.pesquisaProjetos label
+{
+	color: white;
+	font-weight: bold;
+}
+
+select
+{
+	width: 100%;
+	border: 1px solid #007ae3;
+	font-size: 16px;
+	padding: 0 1% 4.8%;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	height: 40px;
+}
+
+.todosProjetos
+{
+	background-color: rgba(230, 230, 230, 0.83);
+	margin: 0 2%;
+    width: 65%;
+    float: left;
+}
+
+.projeto
+{
+	width: 150px;
+	height: 200px;
+	border: 1px solid #DDDDDD;
+	margin: 2% 1% 0 1%;
+	display: inline-block;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.projeto:hover
+{
+	transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	box-shadow: 0 0 5px red;
+    border: 1px solid red;
+}
+
+.projeto .titulo
+{
+	height: 100%;
+	position:relative;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.projeto .titulo label
+{
+	font-size: 11px;
+}
+
+.projeto .titulo .icon
+{
+	height: 70px;
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+header img.mob
+{
+	display: none;
+}
+
+@media screen and (max-width: 700px)
+{
+	header img.desk
+	{
+		width: 150px;
+		margin: 5px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 520px) 
+{
+    .input
+	{
+		width: 98%;
+	}
+	
+	header img.desk
+	{
+		display: none;
+	}
+	
+	header img.mob
+	{
+		display: block;
+		width:35px;
+		float: left;
+	}
+	
+	header .login input[type="text"], header .login input[type="password"]
+	{
+		width: 100px;
+	}
+	
+	.recentes
+	{
+		font-size: 13px;
+	}
+	
+	h1
+	{
+		font-size: 20px;
+	}
+	
+	.acessadas
+	{
+		float: none;
+		width: 100%;
+		margin: 0 0;
+	}
+	
+	.acessadas:before
+	{
+		content: '  ';
+	}
+	
+	.recentes
+	{
+		float: none;
+		width: 100%;
+		margin: 0 0;
+	}
+	
+}
+
+@media screen and (max-width: 510px)
+{
+	.recentes .projetos .infos
+	{
+		height: 80px;
+	}
+	
+	.recentes
+	{
+		height:500px;
+	}
+	
+	.recentes .projetos .infos i
+	{
+		display: none;
+	}
+	
+	footer
+	{
+		font-size: 13px;
+	}
+	
+	.pesquisaProjetos
+	{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.todosProjetos
+	{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
