@@ -1,6 +1,6 @@
 # repoweb-php
 
-RepoWeb PHP é um aplicativo web desenvolvido em PHP que oferece uma interface para gerenciamento de usuários e projetos. A aplicação permite que os usuários realizem operações básicas, como criação, visualização, atualização e exclusão de projetos e usuários diretamente pela interface web.
+RepoWeb PHP é um aplicativo web desenvolvido em PHP que oferece uma interface para gerenciamento de projetos. A aplicação permite que os usuários realizem operações básicas, como criação, visualização, atualização e exclusão de projetos diretamente pela interface web.
 
 ## Sumário
 
