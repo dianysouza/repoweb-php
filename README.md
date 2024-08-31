@@ -6,11 +6,17 @@ RepoWeb PHP é um aplicativo web desenvolvido em PHP que oferece uma interface p
 
 - [Histórico do Projeto](#histórico-do-projeto)
 - [Visão Geral](#visão-geral)
+- [Pré Requisitos](#pré-requisitos)
 - [Uso](#uso)
 
 ## Histórico do Projeto
 
-Este projeto foi desenvolvido como parte de uma disciplina acadêmica na FALS (Faculdade do Litorial Sul Paulista) no ano de 2018. O objetivo foi aplicar conceitos de desenvolvimento web em PHP para criar um sistema funcional de gerenciamento dos projetos da faculdade.
+Este projeto foi desenvolvido como parte de uma disciplina acadêmica na FALS (Faculdade do Litorial Sul Paulista) no ano de 2019. O objetivo foi aplicar conceitos de desenvolvimento web em PHP para criar um sistema funcional de gerenciamento dos projetos da faculdade.
+
+## Pré Requisitos
+
+PHP 7.4 ou superior
+MySQL
 
 ## Visão Geral
 
