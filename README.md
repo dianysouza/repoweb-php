@@ -15,8 +15,8 @@ Este projeto foi desenvolvido como parte de uma disciplina acadêmica na FALS (F
 
 ## Pré Requisitos
 
-PHP 7.4 ou superior
-MySQL
+- PHP 7.4 ou superior;
+- MySQL
 
 ## Visão Geral
 
